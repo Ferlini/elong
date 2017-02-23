@@ -80,6 +80,36 @@ module Elong
           self.request(__method__, params, https=true)
         end
 
+        # The Hotel Order Feedback API
+        #
+        # `https` request
+        #
+        # @params [Hash] params api params
+        # @return [Elong::Response]
+        def feedback(params={})
+          self.request(__method__, params, https=true)
+        end
+
+        # The Hotel Order Feedback API
+        #
+        # `https` request
+        #
+        # @params [Hash] params api params
+        # @return [Elong::Response]
+        def promote(params={})
+          self.request(__method__, params, https=true)
+        end
+
+        # The Hotel Order Payment API
+        #
+        # `https` request
+        #
+        # @params [Hash] params api params
+        # @return [Elong::Response]
+        def pay(params={})
+          self.request(__method__, params, https=true)
+        end
+
       end
     end
   end

@@ -41,13 +41,13 @@ module Elong
           self.request(__method__, params, https=true)
         end
 
-        # The Hotel Incr Feedback API
+        # The Hotel Incr State API
         #
         # `https` request
         #
         # @params [Hash] params api params
         # @return [Elong::Response]
-        def feedback(params={})
+        def state(params={})
           self.request(__method__, params, https=true)
         end
 

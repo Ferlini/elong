@@ -40,6 +40,14 @@ module Elong
           @incr ||= Elong::API::Hotel::Incr.new(@client)
         end
 
+        def inv
+          @inv ||= Elong::API::Hotel::Inv.new(@client)
+        end
+
+        def id
+          @id ||= Elong::API::Hotel::Id.new(@client)
+        end
+
       end
     end
   end
